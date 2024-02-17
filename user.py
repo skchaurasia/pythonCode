@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-# importing linrary
-import os
 import subprocess
 import sys
 import getpass
@@ -16,9 +14,9 @@ def add_user():
 		
 	try:
 		# executing useradd command using subprocess module
-		subprocess.run(['useradd', '-p', password, username ])	 
+		subprocess.run(['useradd', '-p', password, '-s', '/bin/false', '-m', username ])
 	except:
-		print(f"Failed to add user.")					 
+		print("Failed to add user.")					 
 		sys.exit(1)
 
 add_user()
