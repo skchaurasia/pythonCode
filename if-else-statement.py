@@ -5,4 +5,4 @@ if name == 'sachin':
 elif name == 'shakul':
  print('Hi Shakul')
 else:
- print('you did not enter any name or enter wrong name you should be enter either sachin or shakul')
+ print('you did not enter correct name? you have to enter either sachin or shakul')
