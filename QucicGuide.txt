@@ -1,0 +1,14 @@
+----------------------------------------
+https://www.udemy.com/course/automate/
+https://www.python.org
+pythontutor.com/visualize.html
+https://automatetheboringstuff.com.
+pastbin.com [OR] gist.github.com
+------------------------------------
+print('enter a name:')
+name = input()
+if name:
+  print('Thank you for providing your name: ' + name)
+else:
+  print('Hey you did not enter a name.')
+
