@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 import requests
-import json
 
 tenantName = "https://atg-mkt-stage2-"
 domainName = ".campaign.adobe.com"
