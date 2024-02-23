@@ -8,7 +8,6 @@ try:
  for i in range(1, 5):
    finalURL = (tenantName +str(i) +str(domainName) +str(rtest))
    res = requests.get(finalURL)
-   #print(res.text)
    print(res.text)
 except:
   print('seems no more containers available')
